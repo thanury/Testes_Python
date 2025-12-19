@@ -84,5 +84,5 @@
 # print(lacamento)
 
 #Valores aleatórios com random
-import random
-print(random.randint(4,10))
+# import random
+# print(random.randint(4,10))
