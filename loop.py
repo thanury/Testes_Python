@@ -24,8 +24,22 @@
 
 # print('Acesso liberado')
 
-contador = 100
+# contador = 100
 
-while contador >= 1:
-    print(contador)
-    contador -= 1
+# while contador >= 1:
+#     print(contador)
+#     contador -= 1
+
+# estilos = ['Hip-Hop', 'Rock', 'Rap', 'Pop']
+
+# for estilo in estilos:
+#     if estilo == 'Rap':
+#         continue
+#     print(estilo)
+
+estilos = ['Hip-Hop', 'Rock', 'Rap', 'Pop']
+
+for estilo in estilos:
+    if estilo == 'Rock':
+        break
+    print(estilo)
