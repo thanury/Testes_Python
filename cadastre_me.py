@@ -22,3 +22,8 @@ print(f'Nome: {nome}')
 print(f'Idade: {idade} anos')
 print(f'Data de cadastro: {data_cadastro}')
 print(f'Cartão recebido: {cartao_sorteado}')
+print('\n--- Mensagem de Boas-vindas ---')
+print(
+    f'Olá {nome}, seu registro foi concluído com sucesso no dia {data_cadastro}. '
+    f'Parabéns, houve um sorteio e você ganhou um cartão de compras no valor de {cartao_sorteado}.'
+)
